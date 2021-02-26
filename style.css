@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Chelsea+Market);
+@import url(https://fonts.googleapis.com/css?family=Gamja+Flower);
+
+
+
+/* For body */
+body {
+    background: #fffff2;
+    font-family: 'Gamja Flower', cursive; /* for the rest of the page */
+    font-size: 19 px;
+}
+
+/* for the header */
+
+header {
+    font-family: 'Chelsea Market', cursive;
+    background-color: #e4572e;
+    text-align: center;
+    width: 100%;
+    position: static;
+
+    padding-top: 30px;
+    height: 130px;
+    margin-bottom: 100px;
+
+}
+
+header h2{
+    color: white;
+}
+
+/* for main */
+main {
+    background-color: #fffff2;
+    
+}
+
+ .spatulas {
+    border: 5px solid black;
+    box-shadow:3px 3px #e4572e;
+    box-sizing: border-box;
+    width: 60%;
+    margin: auto;
+    padding: 60px 0 5px 30px;
+    height: 200px
+    
+}
+
+.spatulas h2{
+	top: 240px;
+    position: absolute;
+    margin-top: 50px;
+   
+    
+}
+
+.spatulas p img {
+	float: right;
+
+}
+
+.cookiemonster {
+    border: 4px solid #050401;
+    box-shadow:3px 3px #e4572e;
+    box-sizing: border-box;
+    width: 60%;
+    margin: 70px auto;
+    padding: 60px 10px 5px 30px;
+    height: 350px;
+    
+}
+
+.cookiemonster h2{
+	top: 500px;
+    position: absolute;
+    margin-top: 70px;
+}
+
+.cookiemonster p img {
+	float: right;
+
+}
+
+/* for footer */
+
+footer{
+    text-align: center;
+}
+
+form {
+    display: inline-flex;
+    
+
+}
+
+form p{
+    margin: 0 15px auto;
+    border: 4px solid #050401;
+    box-shadow: 3px 3px 0 0 #e4572e;
+
+}
